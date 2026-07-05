@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header/Header'
 import Menu from './components/Menu/Menu'
 import HeroSection from './components/HeroSection/HeroSection'
+import FeaturesSection from './components/Features/FeaturesSection'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -9,8 +10,9 @@ function App() {
   return (
     <div className='font-rubik text-base text-Blue-950 min-h-screen bg-white'>
       <Header openMenu={() => setIsMenuOpen(true)} />
-      <main>
+      <main className='flex flex-col gap-32'>
         <HeroSection />
+        <FeaturesSection />
       </main>
       {isMenuOpen && (
         <Menu closeMenu={() => setIsMenuOpen(false)} />
