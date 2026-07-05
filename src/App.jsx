@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import Menu from './components/Menu/Menu'
 import HeroSection from './components/HeroSection/HeroSection'
 import FeaturesSection from './components/Features/FeaturesSection'
+import DownloadSection from './components/Download/DownloadSection'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,6 +14,7 @@ function App() {
       <main className='flex flex-col gap-32'>
         <HeroSection />
         <FeaturesSection />
+        <DownloadSection />
       </main>
       {isMenuOpen && (
         <Menu closeMenu={() => setIsMenuOpen(false)} />
