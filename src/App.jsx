@@ -6,6 +6,7 @@ import FeaturesSection from './components/Features/FeaturesSection'
 import DownloadSection from './components/Download/DownloadSection'
 import FAQSection from './components/FAQSection/FAQSection'
 import ContactSection from './components/ContactUs/ContactSection'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className='font-rubik text-base text-Blue-950 min-h-screen bg-white'>
       <Header openMenu={() => setIsMenuOpen(true)} />
+
       <main className='flex flex-col gap-32'>
         <HeroSection />
         <FeaturesSection />
@@ -20,6 +22,9 @@ function App() {
         <FAQSection />
         <ContactSection />
       </main>
+
+      <Footer />
+
       {isMenuOpen && (
         <Menu closeMenu={() => setIsMenuOpen(false)} />
       )}
