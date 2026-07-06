@@ -4,6 +4,7 @@ import Menu from './components/Menu/Menu'
 import HeroSection from './components/HeroSection/HeroSection'
 import FeaturesSection from './components/Features/FeaturesSection'
 import DownloadSection from './components/Download/DownloadSection'
+import FAQSection from './components/FAQSection/FAQSection'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,6 +16,7 @@ function App() {
         <HeroSection />
         <FeaturesSection />
         <DownloadSection />
+        <FAQSection />
       </main>
       {isMenuOpen && (
         <Menu closeMenu={() => setIsMenuOpen(false)} />
