@@ -21,7 +21,7 @@ export default function FAQList() {
         }
     ]
     return (
-        <div>
+        <div className='px-4'>
             {items.map(item => (
                 <FAQItem key={item.question} {...item} />
             ))}

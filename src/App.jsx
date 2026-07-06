@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection/HeroSection'
 import FeaturesSection from './components/Features/FeaturesSection'
 import DownloadSection from './components/Download/DownloadSection'
 import FAQSection from './components/FAQSection/FAQSection'
+import ContactSection from './components/ContactUs/ContactSection'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -17,6 +18,7 @@ function App() {
         <FeaturesSection />
         <DownloadSection />
         <FAQSection />
+        <ContactSection />
       </main>
       {isMenuOpen && (
         <Menu closeMenu={() => setIsMenuOpen(false)} />
