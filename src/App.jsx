@@ -13,7 +13,9 @@ function App() {
 
   return (
     <div className='font-rubik text-base text-Blue-950 min-h-screen bg-white'>
-      <Header openMenu={() => setIsMenuOpen(true)} />
+      <Header
+        isMenuOpen={isMenuOpen}
+        openMenu={() => setIsMenuOpen(true)} />
 
       <main className='flex flex-col gap-32'>
         <HeroSection />
@@ -25,9 +27,9 @@ function App() {
 
       <Footer />
 
-      {isMenuOpen && (
-        <Menu closeMenu={() => setIsMenuOpen(false)} />
-      )}
+      <Menu 
+      isOpen={isMenuOpen}
+      closeMenu={() => setIsMenuOpen(false)} />
     </div>
   )
 }

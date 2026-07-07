@@ -18,14 +18,12 @@ export default function Footer() {
             </div>
 
             <div className='flex justify-center items-center gap-10 md:gap-6 lg:gap-10'>
-                <img
-                    src="/images/icon-facebook.svg" alt="Facebook icon"
-                    className='cursor-pointer hover'
-                />
-                <img
-                    src="/images/icon-twitter.svg" alt="Twitter icon"
-                    className='cursor-pointer'
-                />
+                <a href="https://facebook.com" target='_blank' aria-label='Facebook' className='cursor-pointer hover:opacity-70 transition-opacity'>
+                    <img src="/images/icon-facebook.svg" alt="Facebook icon" />
+                </a>
+                <a href="https://twitter.com" target='_blank' aria-label='Facebook' className='cursor-pointer hover:opacity-70 transition-opacity'>
+                    <img src="/images/icon-twitter.svg" alt="Twitter icon" />
+                </a>
             </div>
         </footer>
     )

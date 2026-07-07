@@ -1,16 +1,20 @@
 import React from 'react'
 
-export default function Header({openMenu}) {
+export default function Header({ isMenuOpen, openMenu }) {
   return (
     <header className='flex justify-between items-center px-8 py-10 md:px-20 lg:px-42.75 lg:py-12 lg:mb-14'>
       <a href="#">
         <img src="/images/logo-bookmark.svg" alt="Bookmark logo" />
       </a>
       <button
-      onClick={openMenu}
+        onClick={openMenu}
         type='button'
-        className='cursor-pointer lg:hidden'>
-        <img src="/images/icon-hamburger.svg" alt="Menu icon" />
+        aria-expanded={isMenuOpen}
+        aria-controls='mobile-menu'
+        aria-label='Open menu'
+        className='cursor-pointer lg:hidden'
+      >
+        <img src="/images/icon-hamburger.svg" alt="" />
       </button>
       <nav className='hidden lg:block'>
         <ul className='flex gap-12 items-center uppercase text-sm tracking-wider'>
