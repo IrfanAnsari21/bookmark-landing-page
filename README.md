@@ -1,16 +1,92 @@
-# React + Vite
+# Frontend Mentor - Bookmark Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the Bookmark Landing Page challenge on Frontend Mentor. This project is special as it is my **first project built using React and Tailwind CSS**, focusing on modern UI development and component-based architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Table of Contents
 
-## React Compiler
+* [Overview](#overview)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * [The Challenge](#the-challenge)
+  * [Screenshot](#screenshot)
+  * [Links](#links)
+* [My Process](#my-process)
 
-## Expanding the ESLint configuration
+  * [Built With](#built-with)
+  * [What I Learned](#what-i-learned)
+  * [Continued Development](#continued-development)
+* [Author](#author)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Overview
+
+### The Challenge
+
+Users should be able to:
+
+* View the optimal layout for the site depending on their device's screen size
+* See hover states for all interactive elements
+* Navigate through tabs (features section)
+* Interact with UI components smoothly
+
+---
+
+### Screenshot
+
+| Desktop | Mobile |
+|---------|--------|
+| ![Screenshot](/public/images/desktop-screenshot.png) | ![Screenshot](/public/images/mobile-screenshot.png) |
+
+---
+
+### Links
+
+* Repository: https://github.com/IrfanAnsari21/bookmark-landing-page
+
+* Live Site: https://irfanansari21.github.io/bookmark-landing-page/
+
+---
+
+## My Process
+
+### Built With
+
+* React.js (Functional Components)
+* Tailwind CSS
+* JavaScript (ES6+)
+* Responsive Design (Mobile-first workflow)
+
+---
+
+### What I Learned
+
+* Building reusable UI components using React
+* Managing component structure and state
+* Styling efficiently using Tailwind CSS utility classes
+* Creating responsive layouts quickly with Tailwind
+* Improving development speed with modern frontend tools
+
+---
+
+### Continued Development
+
+* Improve state management for better scalability
+* Add more animations and transitions
+* Enhance accessibility (ARIA roles, keyboard navigation)
+* Optimize performance and code structure
+
+---
+
+## Author
+
+* GitHub: [@IrfanAnsari21](https://github.com/IrfanAnsari21)
+
+* Frontend Mentor: [@IrfanAnsari21](https://www.frontendmentor.io/profile/IrfanAnsari21)
+
+---
+
+## Acknowledgments
+
+Thanks to Frontend Mentor for providing this challenge and helping me take my first step into React and Tailwind development.
