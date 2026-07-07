@@ -11,7 +11,7 @@ export default function FAQSection() {
 
       <FAQList />
 
-      <button className='bg-Blue-600 text-white text-sm w-28.5 font-medium py-3 self-center rounded shadow-md hover:bg-white hover:text-Blue-600 hover:outline-2 transition-all'>
+      <button className='bg-Blue-600 text-white text-sm w-28.5 font-medium py-3 self-center rounded shadow-md cursor-pointer hover:bg-white hover:text-Blue-600 hover:outline-2 transition-all'>
         More Info
       </button>
     </section>

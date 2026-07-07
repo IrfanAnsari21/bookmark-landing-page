@@ -25,7 +25,7 @@ export default function FeaturesSection() {
         }
     ]
     return (
-        <section className='flex flex-col gap-8 md:gap-16 lg:gap-18'>
+        <section className='flex flex-col gap-8 md:gap-16 lg:gap-18' id='features'>
             <div className='flex flex-col self-center text-center gap-4 px-8 md:px-28.5 lg:px-0 lg:w-135'>
                 <h2 className='text-3xl font-medium'>Features</h2>
                 <p className='text-[15px] text-gray-400 md:text-base'>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
@@ -77,7 +77,7 @@ export default function FeaturesSection() {
                             {tabs[tab].description}
                         </p>
                     </div>
-                    <button className='bg-Blue-600 text-white text-sm w-28.5 font-medium py-3 rounded shadow-md hover:bg-white hover:text-Blue-600 hover:outline-2 transition-all'>
+                    <button className='bg-Blue-600 text-white text-sm w-28.5 font-medium py-3 rounded shadow-md cursor-pointer hover:bg-white hover:text-Blue-600 hover:outline-2 transition-all'>
                         More Info
                     </button>
                 </div>

@@ -14,10 +14,10 @@ export default function Header({openMenu}) {
       </button>
       <nav className='hidden lg:block'>
         <ul className='flex gap-12 items-center uppercase text-sm tracking-wider'>
-          <li><a href="#" className='hover:text-Red-400 transition-all'>Features</a></li>
+          <li><a href="#features" className='hover:text-Red-400 transition-all'>Features</a></li>
           <li><a href="#" className='hover:text-Red-400 transition-all'>Pricing</a></li>
-          <li><a href="#" className='hover:text-Red-400 transition-all'>Contact</a></li>
-          <li><button className=' uppercase text-sm bg-Red-400 text-white px-8 py-2.5 rounded shadow-md hover:bg-white hover:text-Red-400 hover:outline-2 transition-all'>Login</button></li>
+          <li><a href="#contact" className='hover:text-Red-400 transition-all'>Contact</a></li>
+          <li><button className=' uppercase text-sm bg-Red-400 text-white px-8 py-2.5 rounded shadow-md cursor-pointer hover:bg-white hover:text-Red-400 hover:outline-2 transition-all'>Login</button></li>
         </ul>
       </nav>
     </header>

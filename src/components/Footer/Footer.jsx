@@ -10,9 +10,9 @@ export default function Footer() {
                 </a>
                 <nav>
                     <ul className='flex flex-col gap-6 text-center text-[15px] uppercase md:flex-row lg:gap-12'>
-                        <li><a href="#" className='hover:text-Red-400 transition-all'>Features</a></li>
+                        <li><a href="#features" className='hover:text-Red-400 transition-all'>Features</a></li>
                         <li><a href="#" className='hover:text-Red-400 transition-all'>Pricing</a></li>
-                        <li><a href="#" className='hover:text-Red-400 transition-all'>Contact</a></li>
+                        <li><a href="#contact" className='hover:text-Red-400 transition-all'>Contact</a></li>
                     </ul>
                 </nav>
             </div>

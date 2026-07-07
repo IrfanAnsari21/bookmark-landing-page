@@ -15,8 +15,8 @@ export default function HeroSection() {
                 <h1 className='text-3xl font-medium md:text-5xl'>A Simple Bookmark <br />Manager</h1>
                 <p className='text-[15px] text-gray-400 md:text-base'>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
                 <div className='flex justify-center gap-4 lg:justify-start'>
-                    <button className='max-w-41.5 grow text-sm bg-Blue-600 text-white font-medium py-3 rounded shadow-md hover:bg-white hover:text-Blue-600 hover:outline-2 transition-all'>Get it on Chrome</button>
-                    <button className='max-w-41.5 grow text-sm bg-Grey-50 text-gray-600 font-medium py-3 rounded shadow-md hover:bg-white hover:text-gray-600 hover:outline-2 transition-all'>Get it on Firefox</button>
+                    <button className='max-w-41.5 grow text-sm bg-Blue-600 text-white font-medium py-3 rounded shadow-md cursor-pointer hover:bg-white hover:text-Blue-600 hover:outline-2 transition-all'>Get it on Chrome</button>
+                    <button className='max-w-41.5 grow text-sm bg-Grey-50 text-gray-600 font-medium py-3 rounded shadow-md cursor-pointer hover:bg-white hover:text-gray-600 hover:outline-2 transition-all'>Get it on Firefox</button>
                 </div>
             </div>
         </section>

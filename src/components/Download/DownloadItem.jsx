@@ -17,7 +17,7 @@ export default function DownloadItem({ img, name, ver }) {
 
             <img src={dotsImg} alt="Dots" />
 
-            <button className='bg-Blue-600 text-white px-8 py-3 self-center text-sm font-medium rounded shadow-md hover:bg-white hover:text-Blue-600 hover:outline-2 transition-all md:px-3 md:py-1 lg:px-8 lg:py-3'>
+            <button className='bg-Blue-600 text-white px-8 py-3 self-center text-sm font-medium rounded shadow-md cursor-pointer hover:bg-white hover:text-Blue-600 hover:outline-2 transition-all md:px-3 md:py-1 lg:px-8 lg:py-3'>
                 Add & Install Extension
             </button>
         </div>
